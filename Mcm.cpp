@@ -91,6 +91,6 @@ int main()
 {
     int arr[]={10,20,30,20,30};
     int n= sizeof(arr)/sizeof(arr[0]);
-    cout<<" number of operation needed :"<<mcm(arr,n)<<endl;
+    cout<<" Total operation :"<<mcm(arr,n)<<endl;
     return 0;
 }
